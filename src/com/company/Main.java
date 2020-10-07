@@ -26,7 +26,7 @@ public class Main {
         new Main().play();
     }
     void play(){
-        System.out.println("Hello new feature");
+        System.out.println("new code");
         printBoard();
         deployPlayerShip();
         deployComputerShips();
