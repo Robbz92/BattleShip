@@ -1,6 +1,5 @@
 package com.company;
 
-import javax.swing.*;
 import java.util.ArrayList;
 import java.util.Scanner;
 
@@ -27,6 +26,7 @@ public class Main {
         new Main().play();
     }
     void play(){
+        System.out.println("Hello new feature");
         printBoard();
         deployPlayerShip();
         deployComputerShips();
